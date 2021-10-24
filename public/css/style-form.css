@@ -1,0 +1,33 @@
+table.form {
+    margin: auto;
+}
+
+form.create-form input[type="text"],
+form.create-form input[type="number"],
+form.create-form input[type="password"],
+form.create-form input[type="email"],
+form.create-form select,
+form.create-form textarea {
+    width: 335.4px;
+}
+
+
+form.register-form  input[type='text'],
+form.register-form  input[type='email'] {
+    width: 335.4px;
+}
+
+table.register,
+table.password {
+    margin: auto;
+}
+
+.font-password {
+    font-size: 0.7em;
+    color: red;
+}
+
+.create-bu {
+    display: block;
+    margin-top: 20px;
+}

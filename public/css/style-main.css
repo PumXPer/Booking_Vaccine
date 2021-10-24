@@ -1,0 +1,91 @@
+html {
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+
+body{
+    margin: 0;
+    background-color: #fcf9ef;
+}
+
+header {
+    background-color:#DEB887;
+    text-align: center;
+}
+
+nav.main ul {
+    display: inline;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 40px;
+    margin-top: 0%;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav.main a{
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    color:#E67E22 ;
+}
+
+main.main {
+    text-align: center;
+}
+
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+form.login input{
+    margin: 10px;
+}
+
+.wrap-login {
+    background-color: white;
+    width: 450px;
+    height: 140px;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+nav.action-a a:hover{
+    color:#f1b978;
+    cursor:pointer;
+}
+
+.status-error {
+    width: 400px;
+    border: 1px solid rgb(109, 19, 19);
+    border-radius: 15px;
+    color: rgb(247, 41, 41);
+    background-color: rgb(240, 141, 141);
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.status-pass {
+    width: 400px;
+    border: 1px solid rgb(12, 82, 23);
+    border-radius: 15px;
+    color: rgb(49, 141, 30);
+    background-color: rgb(101, 221, 117);
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: rgb(247, 41, 41);
+}

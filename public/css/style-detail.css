@@ -1,0 +1,22 @@
+table.data {
+   margin: auto;
+   border-spacing: 0.8em;
+}
+
+table.book {
+    margin: auto;
+}
+
+.books-bu {
+    margin: 10px;
+}
+
+table.data-book {
+    margin: auto;
+    margin-top: 25px;
+    border-spacing: 0.8em;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid brown;
+}
+

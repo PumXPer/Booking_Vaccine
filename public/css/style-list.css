@@ -1,0 +1,29 @@
+table.list,
+table.list tr,
+table.list td,
+table.list th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.list th {
+    background-color: rgb(156, 133, 99);
+}
+table.list td {
+    background-color: rgb(252, 250, 230);
+}
+
+table.list {
+    margin: auto;
+    width: 85%;
+    margin-top: 10px;
+}
+
+table.list a:hover {
+    color: #D2691E;
+}
+
+table.list button {
+    background-color: #F5CBA7;
+    border: 1px solid #804c27;
+}
