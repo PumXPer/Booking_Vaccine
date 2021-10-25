@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Illuminate\Database\QueryException;
 use App\Models\User;
+use App\Models\Books;
 use Illuminate\Support\Facades\Hash;
 
 
@@ -57,10 +58,12 @@ class UserController extends SearchableController
     public function detail($email)
     {
         $user = User::where('email', $email)->first();
+        $books = Books::where('email', $user->email)->first();
 
         return view('user.detail',[
             'title' => "{$this->title} : View",
             'user' => $user,
+            'books' => $books,
         ]);
     }
 

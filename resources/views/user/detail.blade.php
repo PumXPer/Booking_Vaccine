@@ -33,7 +33,33 @@
             <td>::</td>
             <td>{{ $user->role }}</td>
         </tr>
-
+        <tr>
+            <td><b>Hospital</b></td>
+            <td>::</td>
+            @if(!empty($books['hospital']))
+            <td>{{ $books->hospital }}</td>
+            @else
+                <td> - </td>
+            @endif
+        </tr>
+        <tr>
+            <td><b>Vaccine 1</b></td>
+            <td>::</td>
+            @if(!empty($books['vaccineI']))
+                <td>{{ $books->vaccineI }}</td>
+            @else
+                <td> - </td>
+            @endif
+        </tr>
+        <tr>
+            <td><b>Vaccine 2</b></td>
+            <td>::</td>
+            @if(!empty($books['vaccineII']))
+                <td>{{ $books->vaccineII }}</td>
+            @else
+                <td> - </td>
+            @endif
+        </tr>
     </table>
 </main>
 @endsection

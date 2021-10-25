@@ -21,7 +21,7 @@
                 <li><a href="{{ route('vaccine-list') }}">Vaccine</a></li>
                 <li><a href="{{ route('type-list') }}">Type Vaccines</a></li>
                 <li><a href="{{ route('hospital-list') }}">Hospital</a></li>
-                <li><a href="{{ route('books-page') }}">Books Vaccine</a></li>
+                <li><a href="{{ route('books-page') }}">Book Vaccine</a></li>
                 @can('read', \App\Models\User::class)
                 <li><a href="{{ route('user-list') }}">User</a></li>
                 @endcan
@@ -55,7 +55,7 @@
     </main>
 
 
-        <footer>&#169;(ProjecT)Books a Vaccine COVID19[2021]</footer>
+        <footer>&#169;Books a Vaccine COVID-19[2021]</footer>
 
 </body>
 </html>

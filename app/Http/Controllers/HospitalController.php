@@ -82,6 +82,7 @@ class HospitalController extends SearchableController
         VaccineController $vaccineController,$hospitalCode
     )
     {
+
         $hospital = $this->find($hospitalCode);
         $search = $vaccineController->prepareSearch($request->getQueryParams());
         $query = $vaccineController->filterBySearch($hospital->vaccines(), $search);

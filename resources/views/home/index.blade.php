@@ -4,6 +4,7 @@
 
 @section('content')
 
-<p>welcome to web</p>
+<h3>Welcome to web</h3>
+<p>Book Vaccine For People</p>
 
 @endsection

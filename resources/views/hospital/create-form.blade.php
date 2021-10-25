@@ -3,9 +3,9 @@
 @section('title',$title)
 
 @section('content')
-<form action="{{ route('hospital-create') }}" method="post">
+<form class="create-form" action="{{ route('hospital-create') }}" method="post">
     @csrf
-    <table>
+    <table class="form">
         <tr>
             <td>Code</td>
             <td>::</td>
@@ -26,9 +26,7 @@
             <td>::</td>
             <td><textarea name="address"></textarea></td>
         </tr>
-        <tr>
-            <td><button type="submit">Create</button></td>
-        </tr>
     </table>
+        <div class="create-bu"><button type="submit">Create</button></div>
 </form>
 @endsection

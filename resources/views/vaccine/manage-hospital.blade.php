@@ -35,14 +35,12 @@
         <tr>
             <th>Code</th>
             <th>Name</th>
-            <th>Owner</th>
             <th></th>
         </tr>
         @foreach($hospitals as $hospital)
         <tr>
             <td><a href="{{ route('hospital-detail', ['hospitalCode' => $hospital->code,])}}"> {{ $hospital->code   }}</a></td>
             <td>{{ $hospital->name }}</td>
-            <td>{{ $hospital->owner }}</td>
             <td>
                 <a href="{{ route('vaccine-remove-hospital',['vaccineCode' => $vaccine->code,
                                                         'hospitalCode' => $hospital->code,]) }}">Remove</a>

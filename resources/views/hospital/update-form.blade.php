@@ -3,9 +3,9 @@
 @section('title',$title)
 
 @section('content')
-<form action="{{ route('hospital-update',['hospitalCode' => $hospital->code]) }}" method="post">
+<form class="create-form" action="{{ route('hospital-update',['hospitalCode' => $hospital->code]) }}" method="post">
     @csrf
-    <table>
+    <table class="form">
         <tr>
             <td>Code</td>
             <td>::</td>
@@ -26,9 +26,7 @@
             <td>::</td>
             <td><textarea name="address">{{ $hospital->address }}</textarea></td>
         </tr>
-        <tr>
-            <td><button type="submit">Update</button></td>
-        </tr>
     </table>
+        <div class="create-bu"><button type="submit">Update</button></div>
 </form>
 @endsection
