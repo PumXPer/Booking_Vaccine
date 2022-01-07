@@ -1,4 +1,4 @@
-<b>Dev By</b><p>>Phornpitak Kadta</p>
+<b>Dev By</b><p>Phornpitak Kadta</p>
 
 
 
