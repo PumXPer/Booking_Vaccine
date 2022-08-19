@@ -2,7 +2,7 @@
 <h3>Booking Vaccine System</h3>
 <h3>By Laravel</h3>
 
-<b>Deverloper</b>
+<b>Developer</b>
 
 <p>Phornpitak Kadta</p>
 <p>Pichayangkul Pitnum</p>
