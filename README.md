@@ -7,7 +7,7 @@
 <p>Pichayangkul Pitnum</p>
 <p>Thanabadee Saepu</p>
 
-### <b>Project Repository</b>
+### <b>Database & Project Documentation</b>
 <p>Google Drive: <i><a href="https://drive.google.com/drive/folders/1UVsYa0xBO9Fsyk43r9Xl_PngiGsZHn73?usp=sharing">Click here</a></i></p>
 
 ---
